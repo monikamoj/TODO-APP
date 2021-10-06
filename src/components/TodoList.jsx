@@ -1,9 +1,11 @@
+import { TodoItem } from "./TodoItem";
+
 export const TodoList = () => {
   return (
     <ul>
-      <TodoList name="Item1" />
-      <TodoList name="Item2" />
-      <TodoList name="Item3" />
+      <TodoItem name="Item1" />
+      <TodoItem name="Item2" />
+      <TodoItem name="Item3" />
     </ul>
   );
 };

@@ -1,7 +1,33 @@
-.TodoItem {
+.TodoItem__name {
   cursor: pointer;
+  margin-left: 0px;
 }
 
-.TodoItem--is-done {
+.TodoItem__remove {
+  appearance: none;
+  border: none;
+  background-color: transparent;
+}
+
+.TodoItem--is-done .TodoItem__name {
   text-decoration: line-through;
+  opacity: 5.5;
+}
+.TodoItem {
+  list-style: none;
+  margin-left: 0px;
+}
+
+ul {
+  margin: 0px, 0px, 0px, 0px;
+  padding: 0px, 0px, 0px, 0px;
+  padding-inline-start: 10px;
+}
+
+h3 {
+  margin-top: 50px;
+}
+input {
+  margin-left: 10px;
+  margin-bottom: 20px;
 }

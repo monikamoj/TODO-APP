@@ -1,13 +1,38 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background: #b2cccc;
+  margin: 20px auto;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#root {
+  position: relative;
+  list-style: none;
+  width: 300px;
+  min-height: 100px;
+  margin-top: 5rem;
+  margin: 30px auto;
+  padding: 20px 15px 15px 15px;
+  background: #fff url(https://our.fogbugz.com/images/tbKiwiLogo.gif) no-repeat
+    4px 8px;
+  box-shadow: 8px 3px 8px #000;
+  text-align: left;
+  font-size: 2em;
+  font-family: "Reenie Beanie", cursive;
+  color: #000;
+  overflow: hidden;
+  /*transform:rotate(2deg);*/
+  position: relative;
+  top: -10px;
+  transform: rotate(1deg);
+  top: 5px;
+}
+
+#root:hover {
+  transform: scale(1.25);
+}
+
+.pin {
+  position: absolute;
+  right: 38rem;
+  top: 1.8em;
+  height: 4em;
 }
